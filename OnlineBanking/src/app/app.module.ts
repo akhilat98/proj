@@ -11,6 +11,10 @@ import { AddCustomerComponent } from './add-customer/add-customer.component';
 import { AddAccountComponent } from './add-account/add-account.component';
 import { DeleteaccountComponent } from './deleteaccount/deleteaccount.component';
 import { DeletecustomerComponent } from './deletecustomer/deletecustomer.component';
+import { ProductComponent } from './product/product.component';
+import { AboutComponent } from './about/about.component';
+import { ServicesComponent } from './services/services.component';
+import { ErrorComponent } from './error/error.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +25,10 @@ import { DeletecustomerComponent } from './deletecustomer/deletecustomer.compone
     AddAccountComponent,
     DeleteaccountComponent,
     DeletecustomerComponent,
+    ProductComponent,
+    AboutComponent,
+    ServicesComponent,
+    ErrorComponent,
   ],
   imports: [
     BrowserModule,
